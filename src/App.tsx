@@ -42,7 +42,7 @@ interface AppState {
   modal: AppModalProps | null;
 }
 
-class App extends Component {
+export default class extends Component {
   state = {
     ready: false,
     modal: null
@@ -89,5 +89,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

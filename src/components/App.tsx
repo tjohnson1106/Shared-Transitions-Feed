@@ -39,7 +39,7 @@ interface AppProps {
   activeAppId: typeof Value;
 }
 
-class App extends PureComponent<AppProps> {
+export default class extends PureComponent<AppProps> {
   container? = React.createRef();
 
   startTransition = async () => {
@@ -79,5 +79,3 @@ const styles = StyleSheet.create({
     shadowRadius: 3.84
   }
 });
-
-export default App;
