@@ -9,3 +9,10 @@ export interface App {
 }
 
 export type Apps = App[];
+
+export interface Position {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+}
